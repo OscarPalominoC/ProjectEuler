@@ -6,7 +6,6 @@ def primeNumber(number):
             return False
     return True
 
-
 def run():
     prime = 0
     primes = []
