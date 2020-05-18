@@ -1,5 +1,5 @@
 def loop(number):
-    for i in range(20):
+    for i in range(10):
         if number % (i + 1) != 0:
             return False
     return True
@@ -11,7 +11,7 @@ def run():
             if loop(j):
                 print(j)
                 return False
-            j = j + 1
+            j += 1
             
 
 if __name__ == "__main__":
