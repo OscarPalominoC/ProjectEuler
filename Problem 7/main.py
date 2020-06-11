@@ -1,6 +1,6 @@
 def primeNumber(number):
     if number == 1:
-        return True
+        return False
     for i in range(2, number):
         if number % i == 0:
             return False
@@ -10,7 +10,7 @@ def run():
     prime = 0
     primes = []
     j = 1
-    while prime <= 10001:
+    while prime < 10001:
         for i in range(j, j+1):
             if primeNumber(j):
                 prime += 1
